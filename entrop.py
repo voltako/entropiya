@@ -1,6 +1,6 @@
 import math
 import os
-print('введите путь до директории с вашим файлом.')
+print('введите путь до директории с вашим файлом с расширением .txt.')
 print('пример:/home/user/Desctop/shennon')
 dir =(input(': '))
 files = os.listdir(str(dir))
